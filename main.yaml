@@ -4,4 +4,4 @@
 
   roles:
     - { role: add-repo, tags: add_repo }
-    - { role: install-base-apps, tags: base_apps }
+    - { role: install-base, tags: base_apps }
