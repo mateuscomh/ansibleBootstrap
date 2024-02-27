@@ -1,0 +1,7 @@
+---
+- hosts: debian
+  become: yes
+
+  roles:
+    - { role: add-repo, tags: add_repo }
+    - { role: install-base-apps, tags: base_apps }

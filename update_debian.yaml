@@ -1,0 +1,11 @@
+---
+- name: Configurar Debian
+  hosts: debian
+  become: yes
+  tasks:
+    - name: Atualizar pacotes
+      apt:
+        update_cache: yes
+        upgrade: yes
+    # Adicione mais tarefas para configurar o Debian conforme necessário
+
