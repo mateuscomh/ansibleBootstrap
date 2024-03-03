@@ -2,7 +2,7 @@
 #####
 - Precisa que usuário já esteja criado
 - Precisa que usuário tenha permissoes de sudo
-
+- Precisa ansible-galaxy
 
 
 #install

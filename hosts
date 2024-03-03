@@ -1,3 +1,10 @@
+[debianansible]
+172.17.177.41:22 ansible_ssh_private_key_file=/home/salaam/vagrant/ubuntu/.vagrant/machines/deb/libvirt/private_key
+
+#172.17.177.41 
+#ansible_ssh_port=22
+#ansible_ssh_private_key_file=/home/salaam/vagrant/ubuntu/.vagrant/machines/deb/libvirt/private_key
+
 [debian]
 127.0.0.1
 

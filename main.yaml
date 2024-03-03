@@ -1,5 +1,5 @@
 ---
-- hosts: debian
+- hosts: debianansible
   become: yes
 
   roles:
